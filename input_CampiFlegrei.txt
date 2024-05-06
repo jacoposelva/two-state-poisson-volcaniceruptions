@@ -1,0 +1,20 @@
+2022 	% end year of the catalog 
+14000 	% length of the catalog in years
+4 	% number of clusters
+-11600	% Cluster 1: year of the first eruption 
+3050	% Cluster 1: length in years (from first to last eruption) of cluster 1 
+Y	% Cluster 1: use to compute lambdaH (Y/N)
+33	% Cluster 1: total number of eruption (inclusing starting eruption) 
+-7640	% Cluster 2: year of the first eruption 
+485	% Cluster 2: length in years (from first to last eruption) of cluster 1 
+Y	% Cluster 2: use to compute lambdaH (Y/N)
+8	% Cluster 2: total number of eruption (inclusing starting eruption) 
+-3425	% Cluster 3: year of the first eruption 
+1920	% Cluster 3: length in years (from first to last eruption) of cluster 1 
+Y	% Cluster 3: use to compute lambdaH (Y/N)
+28	% Cluster 3: total number of eruption (inclusing starting eruption) 
+1538	% Cluster 4: year of the first eruption 
+0	% Cluster 4: length in years (from first to last eruption) of cluster 1 
+Y	% Cluster 4: use to compute lambdaH (Y/N)
+1	% Cluster 4: total number of eruption (inclusing starting eruption) 
+
