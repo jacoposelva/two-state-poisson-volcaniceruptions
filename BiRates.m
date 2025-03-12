@@ -21,7 +21,7 @@ disp('---------------------------')
 
 info=set_input(volcName,inputFile);
 MLE_results=empirical_MLE(info);
-[figs1]=mle_figures(info,MLE_meancat);
+[figs1]=mle_figures(info,MLE_results);
 
 
 MLE_results
