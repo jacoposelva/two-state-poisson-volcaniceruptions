@@ -10,7 +10,8 @@ function MLE_results = empirical_MLE(info)
     
     nsample = 10000;
     dtmax=min(info.repose_times); % tau massimo
-    dtmin = round(max(cluster_len / cluster_nev)/10)*10;       
+%    dtmin = round(max(cluster_len / cluster_nev)/10)*10;       
+    dtmin = round(max(cluster_len ./ cluster_nev)/100)*100;  % corr 02/07/2025     
     dt1 = max(round((dtmax-dtmin)/30),1);
     
     
