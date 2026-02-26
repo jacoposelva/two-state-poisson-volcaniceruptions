@@ -23,18 +23,8 @@ info=set_input(volcName,inputFile);
 MLE_results=empirical_MLE(info);
 [figs1]=mle_figures(info,MLE_results);
 
+conf_int_all=[0.5:0.1:0.9 0.99];
+[fig2] = findConfInt(info,MLE_results,conf_int_all);
 
 MLE_results
 
-
-% [siminfo,sim]=cat_gen(info,MLE_meancat); 
-% [simstat1]=cat_stat(info,siminfo,sim);
-% [simstat]=cat_stat_test(info,simstat1)
-% [figs2]=make_fig(info,siminfo,simstat);
-
-
-
-
-
-
-    
