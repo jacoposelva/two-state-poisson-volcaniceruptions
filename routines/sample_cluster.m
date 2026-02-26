@@ -1,5 +1,6 @@
 function tout = sample_cluster(lambda_cl,iet_thr)
-    ntrials = round( (50 / lambda_cl) / 1000) * 1000; 
+%    ntrials = round( (50 / lambda_cl) / 1000) * 1000; 
+    ntrials = round( (500 / lambda_cl) / 1000) * 1000; % corr 02/07/2025
 
     iettmp = [0 exprnd(1/lambda_cl,1,ntrials)];
     isel1=find(iettmp(:)>iet_thr,1);
